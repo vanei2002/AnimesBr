@@ -1,0 +1,156 @@
+*{
+    margin: 0;/*define o espaço ao redor de um elemento HTML*/
+    padding: 0px;/*As propriedades de preenchimento*/
+}
+
+body{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* Gerais */
+p{
+    margin: 5px;
+}
+
+h3{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* formatação de cabecalho */
+
+#logo{
+    float: right;
+}   
+
+#logo img{
+    border-radius: 20px 0px 20px 0;
+}
+
+#cabecalho{
+    text-align: center;
+    background-color:  #0088f7;
+    padding: 20px;
+}
+
+#cabecalho h1{
+    font-size: 2.9em;
+    padding: 18px;
+}
+
+#links{
+    text-decoration: none;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+#links a:link,#links a:visited{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+#links a:hover{
+    background-color: white;
+    color: rgb(12, 135, 151);
+    border-radius: 10px;
+    margin: 0 18px;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 3px 15px;
+}
+
+#barra button{
+    border: 0px solid;
+    border-radius: 7px;
+    width: 50px;
+    height: 20px;
+    margin: 2px 5px;
+    font-size: 13px;
+}
+
+#barra button:hover{
+    background-color: white;
+    color: red;
+}
+
+/* formatação do conteudo */
+#principal{
+    width: 920px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius:  50px ;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+#ajuste{
+    width: 620px;
+    float: left;
+}
+
+.textos{
+    margin: 15px 0px;
+    padding: 5px;
+}
+
+.textos h2{
+    margin-bottom: 10px;
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+#lateral{
+    width: 260px;
+    float:right;
+}
+
+#area-lateral{
+    background-color: #e6e6e675;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#lateral ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+#lateral ul li a{
+    text-decoration: none;
+    color:#f7b500;
+    border-bottom: 1px solid;
+    display: block;
+    font-weight: bold;
+}
+
+#area-lateral a{
+    text-decoration: none;
+    color:#f7b500;
+}
+
+#lateral a:hover{
+    color: rgb(12, 135, 151);
+}
+
+.clear{
+    clear: both;
+}
+
+#rodape{
+    text-align: center;
+    font-size: 1.8em;
+    padding: 10px;
+    background-color:  #0088f7;
+
+}
+
+
+
+
